@@ -1,0 +1,66 @@
+@import "home.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: blanchedalmond;
+    z-index: 9;
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+.brand-logo{
+    height: 62px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.search{
+    width: 500px;
+    display: flex;
+}
+
+.search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid #cbac6d;
+    text-transform: capitalize;
+    background: none;
+    color: #936921;
+    outline: none;
+}
+.search-bth{
+    width: 20%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #936921;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.search-box::placeholder{
+    color: #cbac6d;
+
+}
